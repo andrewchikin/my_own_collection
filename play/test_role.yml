@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  collections:
+    - my_own_namespace.yandex_cloud_elk
+  roles:
+    - my_role
